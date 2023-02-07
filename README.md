@@ -1,13 +1,5 @@
 [pixel-webp](https://unpkg.com/pixel-webp/)
 ---
-<p align="right">
-  <a href="https://www.npmjs.com/package/pixel-webp">
-    <img alt="Npm version" src="https://badge.fury.io/js/pixel-webp.svg">
-  </a>
-  <a href="https://travis-ci.org/59naga/pixel-webp">
-    <img alt="Build Status" src="https://travis-ci.org/59naga/pixel-webp.svg?branch=master">
-  </a>
-</p>
 
 > Parse Webp to ImageData in cross-platform.
 
