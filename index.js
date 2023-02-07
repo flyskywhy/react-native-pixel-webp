@@ -1,5 +1,5 @@
-import pixelUtil from 'pixel-util';
-import { WebPDecoder, WebPRiffParser } from '@59naga/libwebp/libwebp.mjs';
+import pixelUtil from 'react-native-pixel-util';
+import {WebPDecoder, WebPRiffParser} from 'react-native-libwebpjs';
 
 export const parse = async file => {
   const binary = await pixelUtil.createBuffer(file);

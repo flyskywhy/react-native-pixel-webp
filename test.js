@@ -1,5 +1,5 @@
 import fixtures from 'fixture-images';
-import pixelUtil from 'pixel-util';
+import pixelUtil from 'react-native-pixel-util';
 import spec from 'eastern';
 import assert, { equal } from 'assert';
 import { parse } from './';
