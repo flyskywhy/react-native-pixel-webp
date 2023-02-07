@@ -1,7 +1,7 @@
 {
-  "name": "pixel-webp",
-  "version": "0.0.1",
-  "description": "Parse Webp to ImageData in cross-platform",
+  "name": "react-native-pixel-webp",
+  "version": "1.0.0",
+  "description": "Parse Webp to ImageData for React Native",
   "scripts": {
     "start": "abby format, test --watch \"*.mjs\"",
     "test": "node --experimental-modules test.mjs"
@@ -16,17 +16,26 @@
     "react-native-pixel-util": "^1.1.0"
   },
   "author": "59naga <i59naga@icloud.com>",
+  "contributors": [
+    {
+      "name": "Li Zheng",
+      "email": "flyskywhy@gmail.com",
+      "url": "https://github.com/flyskywhy"
+    }
+  ],
   "license": "MIT",
   "keywords": [
+    "imagedata",
     "pixel",
-    "webp"
+    "webp",
+    "react-native"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/59naga/pixel-webp.git"
+    "url": "git+https://github.com/flyskywhy/react-native-pixel-webp.git"
   },
   "bugs": {
-    "url": "https://github.com/59naga/pixel-webp/issues"
+    "url": "https://github.com/flyskywhy/react-native-pixel-webp/issues"
   },
-  "homepage": "https://github.com/59naga/pixel-webp#readme"
+  "homepage": "https://github.com/flyskywhy/react-native-pixel-webp#readme"
 }
