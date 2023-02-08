@@ -7,13 +7,13 @@
     "test": "node --experimental-modules test.mjs"
   },
   "dependencies": {
-    "react-native-libwebpjs": "^1.0.0"
+    "react-native-libwebpjs": "^1.0.0",
+    "react-native-pixel-util": "^1.1.0"
   },
   "devDependencies": {
     "abigail": "^1.9.5",
     "eastern": "^0.0.4",
-    "fixture-images": "^0.1.5",
-    "react-native-pixel-util": "^1.1.0"
+    "fixture-images": "^0.1.5"
   },
   "author": "59naga <i59naga@icloud.com>",
   "contributors": [
