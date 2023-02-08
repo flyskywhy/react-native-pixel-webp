@@ -12,6 +12,13 @@ Installation
 ```bash
 $ npm install react-native-pixel-webp
 ```
+For RN >= 0.65, run `npm install react-native-blob-util`.
+
+For RN < 0.65, run `npm install react-native-blob-util@0.16.3`, and patch manually to [fix: with react-native-web product build will export 'URIUtil' (reexported as 'URIUtil') was not found](https://github.com/RonRadtke/react-native-blob-util/pull/201/files).
+```js
+var pixelWebp= require('react-native-pixel-webp');
+console.log(pixelWebp); //object
+```
 
 API
 ---
@@ -22,7 +29,7 @@ return `images` is Array contains one or more `ImageData`.
 
 Related projects
 ---
-* [react-native-pixel](https://github.com/flyskywhy/react-native-pixel)
+* [react-native-pixel-image](https://github.com/flyskywhy/react-native-pixel-image)
 * [react-native-pixel-util](https://github.com/flyskywhy/react-native-pixel-util)
 * [react-native-pixel-gif](https://github.com/flyskywhy/react-native-pixel-gif)
 * [react-native-pixel-png](https://github.com/flyskywhy/react-native-pixel-png)
