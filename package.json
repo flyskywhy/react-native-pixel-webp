@@ -1,6 +1,6 @@
 {
   "name": "react-native-pixel-webp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse Webp to ImageData for React Native",
   "scripts": {
     "start": "abby format, test --watch \"*.mjs\"",
