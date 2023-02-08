@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react-native-libwebpjs": "^1.0.0",
-    "react-native-pixel-util": "^1.1.0"
+    "react-native-pixel-util": "^1.1.1"
   },
   "devDependencies": {
     "abigail": "^1.9.5",
